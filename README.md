@@ -9,9 +9,9 @@
   * Nyomtatott könyvek (ISBN, oldalszám) és e-könyvek (formátum, fájlméret MB-ban) kezelése polimorfizmussal.
 * **Kölcsönzési rendszer (`Loan`):**
   * Kölcsönzési és lejárati dátum nyilvántartása, késedelmi díj számítása visszavételkor.
-* **Egyedi kivételkezelés:**
+* **Hibakezelés:**
   * `LibraryException`, `UnauthorizedActionException` és `ItemNotAvailableException` a jogosulatlan műveletek és elérhetőségi hibák elkülönítésére.
-* **Skálázható, streamelt adattárolás (`LibraryStorage`):**
+* **Adattárolás (`LibraryStorage`):**
   * Pufferelt I/O (`BufferedReader` / `BufferedWriter`, 64 KB puffer, UTF-8 kódolás) mesterséges darabszám- vagy sorlimit nélkül.
   * `library_items.csv`: könyvtári tételek mentése és betöltése.
   * `library_users.txt`: felhasználók (`MANAGER` / `READER`) mentése és betöltése.
