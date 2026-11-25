@@ -1,0 +1,4 @@
+MANAGER;1;Kovacs Anna;anna.kovacs@library.hu;EMP-01
+READER;2;Nagy Peter;peter.nagy@gmail.com
+READER;3;Szabo Eszter;eszter.szabo@gmail.com
+READER;4;Kosteleczky Aron;aron061027@gmail.com
