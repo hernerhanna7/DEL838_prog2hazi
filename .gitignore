@@ -1,0 +1,9 @@
+﻿target/
+out/
+.idea/
+*.iml
+*.class
+*.jar
+*.csv
+*.txt
+.DS_Store
