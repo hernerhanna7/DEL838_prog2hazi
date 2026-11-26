@@ -16,3 +16,7 @@
   * `library_items.csv`: könyvtári tételek mentése és betöltése.
   * `library_users.txt`: felhasználók (`MANAGER` / `READER`) mentése és betöltése.
   * `library_loans.txt`: aktív kölcsönzések mentése a kölcsönző adataival (`loanId`, `readerId`, `readerName`, `itemId`, `borrowDate`, `dueDate`) együtt, hogy a következő indításkor is megmaradjanak.
+
+ ## Known limitations
+ 
+ * Managert nem lehet hozzáadni
